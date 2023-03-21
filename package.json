@@ -1,5 +1,5 @@
 {
-  "homepage": "https://shahanwaztech.github.io/todosApp",
+  "homepage": "https://shahanwaztech.github.io/tictactoe",
   "name": "gameapp",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
